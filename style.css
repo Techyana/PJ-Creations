@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+* {
+    font-family: 'Neucha', cursive;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+body {
+    background: linear-gradient(180deg,  rgba(40, 151, 187, 0.767) 40%, rgba(223, 24, 81, 0.450) 85%);
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+.container .navbar {
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    background: linear-gradient(180deg,  rgb(40, 151, 187) 40%, rgb(255, 255, 255) 85%);
+}
+
+.main {
+    margin-top: 200px;
+}
+
+.container .pjPic {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.container .nav-items{
+    display: flex;
+}
+
+.container .btnGallery {
+    width: 50%;
+    height: 6vh;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin: 40px 20px 0px 0px;
+    background: rgba(212, 203, 203, 0.61);
+    color: rgb(42, 40, 42);
+    text-align: center;
+}
+
+.container .btnHome {
+    width: 50%;
+    height: 6vh;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin: 40px 20px 0px 0px;
+    background: rgba(212, 203, 203, 0.61);
+    color: rgb(42, 40, 42);
+    text-align: center;
+}
+
+.container .img-section {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.imgTrudy {
+    width: 60%;
+
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 8px rgb(236, 228, 221);
+}
+
+.top-part {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.top-text .text-warning {
+    color: yellow;
+}
+
+.para-one {
+    font-size: 1.4rem;
+}
+
+.main .products {
+    background: linear-gradient(180deg,  rgba(223, 24, 81, 0.050) 40%, rgb(254, 255, 255) 85%);
+    padding: 10px;
+}
+
+.main .contact {
+    background: rgba(212, 203, 203, 0.61);
+    padding: 10px;
+}
+
+footer {
+    background: rgb(42, 40, 42);
+    color: rgb(133, 125, 125);
+    width: 100%;
+    padding: 8px 15px;
+    text-align: center;
+    display: flex;
+    font-size: 1rem;
+}
+
+.leadFooter {
+    margin-left: 70px;
+}
+
+.home-arrow {
+    margin-left: 20px;
+    color: rgb(45, 65, 252);
+}
+
+.container .pictures {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.pictures img {
+    margin-top: 10px;
+    max-width: 100%;
+    border-radius: 10px;
+}
